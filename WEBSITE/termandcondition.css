@@ -1,0 +1,162 @@
+main {
+    background-color: white;
+}
+
+
+.header{
+    background-color: #08244D;
+    display: flex; 
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: -2%;
+    padding-bottom: 1%;
+}
+.div{
+    display: flex;
+    align-items: center; 
+    padding-top: 2.5%;  
+    margin-left: 2%;
+}
+
+.nav ul{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 560px;
+}
+ul li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li a{
+    text-decoration: none;
+    margin: 29px;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+.dropbtn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 16.5px;
+    background-color: #08244D;
+    border: none;
+    border-radius: 12px;
+    
+  }
+  
+  .dropdown {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    border-radius: 15px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white(0, 0, 0, 0.385);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: #00c7c4;}
+  
+  .dropdown:hover .dropdown-content {display: block}
+  
+  .dropdown:hover .dropbtn {background-color: #FFAA00}
+
+.div img{
+    width: 70px;
+    height: 70px;
+    border-radius: 75px;
+    text-decoration: none;
+}
+.div h3{
+    color: white;
+    margin-left: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back{
+    padding-top: 40px;
+    display: flex;
+    margin: 20px 4%;
+
+}
+.back img{
+    height: 15px;
+    
+}
+.back a{
+    font-size: large;
+    color: #08244D;
+    padding-top: 5px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main h3{
+    margin-left: 150px;
+    padding: 0.5%;
+    border-radius: 17px;
+    text-align: center;
+    width: 250px;   
+    background-color: #FFAA00;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.T_C{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+footer{
+    padding-top: 5%;
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+
+}
+.Navigation{
+    list-style: none;
+}
+.Navigation li:hover{
+    color: aqua;
+}
+.Address img{
+    height: 25px;
+    width: 20px;
+    padding-top: 20%;
+    padding-right: 3%;
+}
+.Address{
+    display: flex;
+    margin-top: -1%;
+}
+.Address p:hover{
+    color: aqua;
+}
+footer .Contact{
+    list-style: none;
+}
+.Contact li:hover{
+    color: aqua;
+}
+.footer2{
+    padding-top: 2%;
+    text-align: center;
+    font-size: x-small;
+}

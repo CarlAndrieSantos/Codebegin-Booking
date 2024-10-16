@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - VALENZUELA CHIROPRACTIC CENTER</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="Chiropractic.png"  type="image/icon type" >
+</head>
+
+<body>
+    <header class="header">
+        <div class="div">
+            <a href="home.html"><img src="Chiropractic.png" alt="Chiropractic Logo"></a>
+            <h3>VALENZUELA CHIROPRACTIC CENTER</h3>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">SERVICES</button>
+                    <div class="dropdown-content">
+                        <a href="chiroprac.html">CHIROPRACTIC CARE</a>
+                        <a href="scoliosis.html">SCOLIOSIS TREATMENT</a>
+                        <a href="services.html">MASSAGE THERAPY</a>
+                        <a href="neckandbackpaintreatment.html">NECK AND BACKPAIN TREATMENT</a>
+                        <a href="pediatricchiropractor.html">PEDIATRIC CHIROPRACTOR</a>
+                    </div>
+                </div>
+                <li id="logout" style="display:none;"><a href="home.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main class="login">
+            <h1>"Join Our Community of Healthy Living"</h1>
+            <h3>"Sign Up for Exclusive Offers and Expert Tips"</h3>
+            <h4>"Create Your Account"</h4>
+            
+            <div class="signup-box">
+                <form id="signupForm" action="confirm.html" method="post">
+                    <label for="firstName">First Name*</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="" required>
+                    <label for="lastName">Last Name*</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="" required>
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                    <label for="password">Password*</label>
+                    <input type="password" id="password" name="password" placeholder="password" required>
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" id="phone" name="phone">
+                    <a href="../WEBSITE _BOOKING/home.html"><input type="button" id="registerButton" value="Sign up"></a>
+                </form>
+                <p>
+                    By clicking the Sign Up button, you agree to our <br />
+                    <a href="termsandcondtion.html">Terms and Condition</a>
+                    <p>Already have an account? <a href="login.html">Sign In</a></p>
+                </p>
+            </div>
+        </main>
+
+    <footer>
+        <div class="Navigation">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+        </div>
+        <div class="Address">
+            <img src="locationlogo.png" alt="Location Logo">
+            <p>123 Tamaraw St.,<br>Valenzuela City, St.Benedict<br>123-456-7890</p>
+        </div>
+        <div class="Contact">
+            <li>ValChiro@gmail.com</li>
+            <li>Main - 8-521-4962</li>
+            <li>09877383485</li>
+        </div>
+    </footer>
+    <div class="footer2">
+        <p>
+            Powered by Group 3 VALENZUELA CHIROPRACTIC CENTER <br>All Rights Reserved
+        </p>
+    </div>
+
+    
+</body>
+</html>
